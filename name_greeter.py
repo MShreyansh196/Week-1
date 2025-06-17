@@ -25,8 +25,8 @@ greeting = input ("Hello " + str(name) + ", how are you doing?")
     # Optional challenge: Ask for age and respond
 age = input ( "What is your age?")
 age_num = int(age)
-until_25 = 25-age_num
-print("You have " + str(until_25) + " years until you are 25 years old.")
+until_25 = 1000-age_num
+print("You have " + str(until_25) + " years until you are 1000 years old.")
 # ---- 2. “Guard” to run main() when executed directly ---------------
 if __name__ == "__main__":
     main()
